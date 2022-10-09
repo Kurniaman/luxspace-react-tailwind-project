@@ -10,7 +10,7 @@ import useScrollAnchor from 'helpers/hooks/useScrollAnchor';
 
 export default function HomePage(props) {
   useScrollAnchor();
-
+  
   return (
     <>
       <Header />
