@@ -6,8 +6,11 @@ import JustArrived from 'parts/HomePage/JustArrived';
 import Clients from 'parts/Clients';
 import SiteMap from 'parts/Sitemap';
 import Footer from 'parts/Footer';
+import useScrollAnchor from 'helpers/hooks/useScrollAnchor';
 
 export default function HomePage(props) {
+  useScrollAnchor();
+
   return (
     <>
       <Header />
